@@ -14,6 +14,7 @@ public:
 	void loadProcessList();
 	void deleteProcess(unsigned long _PID);
 	//std::vector<Process> *getProcessList();
+	void runNewProcess(string path);
 	std::map<unsigned long, Process> *getProcessList();
 };
 
